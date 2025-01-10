@@ -1,6 +1,6 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const { use } = require('react');
+// const { use } = require('react
 const mongoURI = process.env.MONGOURL; 
 
 const mongoDB = async () => {
