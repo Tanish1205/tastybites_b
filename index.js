@@ -12,7 +12,7 @@ const cors = require('cors');
 
 // Alternatively, enable CORS for specific origins
 const corsOptions = {
-  origin: 'https://tastyy-bites.netlify.app/', // Replace with your client's origin
+  origin: 'https://tastyy-bites.netlify.app', // Replace with your client's origin
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Allow cookies and authorization headers
 };
